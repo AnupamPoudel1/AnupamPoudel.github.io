@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the web page -->
+    <title>Anupam Personal-Portfolio</title>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- main  -->
+
+    <main>
+
+        <!-- sidebar -->
+
+        <div class="sidebar" data-sidebar>
+
+            <!-- sidebar name-image section -->
+
+            <div class="sidebar-info" data-sidebar>
+                <figure class="img-box">
+                    <img src="./assets/images/anupam.jpg" alt="Anupam Poudel" width="90">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Anupam Poudel">Anupam Poudel</h1 >
+                    <p class="title">Web Developer</p>
+                </div>
+                 <button class="show-more-info" id="arrow" data-sidebar-btn>
+                    <!-- <span>Show more</span> -->
+                    <ion-icon name="arrow-down-outline"></ion-icon>
+                 </button>
+             </div> 
+
+             <!-- show more section of sidebar -->
+
+             <div class="sidebar-more">
+
+                <div class="separator"></div>
+
+                    <!-- personal info -->
+
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+                                <a href="mailto:abc@example.com" class="contact-link">anupampoudel78@gmail.com</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Phone no.</p>
+                                <a href="#" class="contact-link">9860679848</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Birthday</p>
+                                <time datetime="2001-12-01">December 1, 2001</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+                                <address>Kathmandu, Nepal</address>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="separator"></div>
+                    
+                    <!-- social media links -->
+
+                    <ul class="social-media">
+                        <li class="social-site">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-site">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-site">
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+             </div>    
+        </div>
+
+        
+        <!-- main content -->
+
+
+        <div class="main-content">
+
+             <!-- navbar -->
+
+             <nav class="navbar">
+                 <ul class="nav-list">
+                     <li class="nav-item">
+                         <button class="nav-link" data-nav-link> <a href="#about">About</a> </button>
+                     </li>  
+                     <li class="nav-item">
+                        <button class="nav-link" data-nav-link> <a href="#resume">Resume</a> </button>
+                    </li>  
+                     <li class="nav-item">
+                         <button class="nav-link" data-nav-link> <a href="#contact">Contact</a> </button>
+                    </li>
+                </ul>
+             </nav>
+
+            <!-- about -->
+
+            <article class="about active" id="about">
+                <header>
+                    <h2 class="h2 article-title">
+                        About me
+                    </h2>
+                </header>
+                    <section class="about-text">
+                        <p>
+                            I'm a Web Develpoer from Kathmandu, Nepal. I enjoy making creative websites .
+                        </p>
+                        <p>
+                            My job is to build Web sites that is functional and user friendly but at the same time attractive.
+                            Moreover I like to add a personal touch to your websites and also make sure that it is attractive and easy to use.
+                        </p>
+                    </section>
+
+                    <!-- servies -->
+
+                    <section class="services">
+                        <h3 class="h3 service-title">
+                            What i'm doing
+                        </h3>
+                        <ul class="service-list">
+                            <li class="service-item">
+
+                                <div class="service-icon">
+                                    <img src="./assets/images/icon-design.svg" alt="design" width="50">
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="h4 service-title">Web Design</h4>
+                                    <p class="service-text">
+                                        Modern and high-quality design made at a professional level.
+                                    </p>
+                                </div>
+
+                            </li>
+
+                            <li class="service-item">
+
+                                <div class="service-icon">
+                                    <img src="./assets/images/icon-dev.svg" alt="development" width="50">
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="h4 service-title">Web Develpoment</h4>
+                                    <p class="service-text">
+                                        Sites are developed at professional level in high-quality.
+                                    </p>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <!-- testimonials -->
+
+                    <section class="testimonials">
+                        <h3 class="h3 testimonials-title">Testimonials</h3>
+                        <ul class="testimonials-list has-scrollbar">
+                            <li class="testimonials-items">
+                                <a href="#" class="content-card">
+                                    <figure class="testimonials-avatar-box">
+                                        <img src="./assets/images/ganesh.jpg" alt="ganesh" width="80">
+                                    </figure>
+
+                                    <h4 class="h4 testimonials-item-title">
+                                        Ganesh Bahadur Kawar
+                                    </h4>
+
+                                    <div class="testimonials-text">
+                                        <p>
+                                            Ganesh is a talented web developer with very pleasing works and a lot of experience. He is very concerned about the needs of the clients and delivered very good perofrmance. He is very enthusiastic about his work and always tries to give his best in what he does.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="testimonials-items">
+                                <a href="#" class="content-card">
+                                    <figure class="testimonials-avatar-box">
+                                        <img src="./assets/images/srijan.jpg" alt="ganesh" width="80">
+                                    </figure>
+
+                                    <h4 class="h4 testimonials-item-title">
+                                        Srijan Sigdel
+                                    </h4>
+
+                                    <div class="testimonials-text">
+                                        <p>
+                                            Srijan is a talented designer and photoshop expert with very pleasing works and a lot of experience. He is very concerned about the needs of the clients and delivered very good perofrmance. He is always eager to try and make new and good looking designs.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+            </article>
+
+            <!-- resume -->
+
+            <article class="resume active" id="resume">
+                <header>
+                    <h2 class="h2 article-title">
+                        Resume
+                    </h2>
+                </header>
+
+                <!-- timeline -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Hillary High School</h4>
+                            <span>2003-2016</span>
+                            <p class="timeline-text">
+                                Completed my Primary Level education in this school located at Gaurinagar, Kathmandu.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Riviera International Academy</h4>
+                            <span>2016-2018</span>
+                            <p class="timeline-text">
+                                Completed my Secondary Level education in this academy located at Maijubahal, Kathmandu.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Ambition International Academy</h4>
+                            <span>2019-Present</span>
+                            <p class="timeline-text">
+                                Currently I'm completing Bachelors Level study at Ambition International Academy.
+                            </p>
+                        </li>
+                    </ol>
+
+                </section>
+
+
+                <!-- skills -->
+                <section class="skills">
+                    <h2 class="h2 skills-title">My Skills</h2>
+                    <ul class="skill-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">CSS</h5>
+                                <data value="80">60%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java Script</h5>
+                                <data value="80">40%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 40%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <!-- contact -->
+
+            <article class="contact active" id="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                
+                <section class="contact-from">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form">
+                        <div class="input-wrapper">
+                            <input type="text" class="form-input" name="fullname" placeholder="Full Name" required>
+
+                            <input type="email" class="form-input" name="Email" placeholder="Email Adderess" required>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                            <span>Submit</span>
+                        </button>
+
+                    </form>
+                </section>
+            </article>
+
+        </div>
+
+    </main>
+
+
+    <!-- custom js  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ion-icon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
