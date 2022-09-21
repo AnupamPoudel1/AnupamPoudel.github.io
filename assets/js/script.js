@@ -13,4 +13,4 @@ flag=0;
 
 sidebarbtn.addEventListener("click", function() { elementToggleFunc(sidebar)
     flag==0?(arrow.innerHTML='<ion-icon name="arrow-up-outline"></ion-icon>',flag=1):(arrow.innerHTML='<ion-icon name="arrow-down-outline"></ion-icon>',flag=0);
-})
+});
