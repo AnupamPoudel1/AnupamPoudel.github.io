@@ -816,3 +816,14 @@ textarea.form-input{
         justify-content: center;
     }
 }
+
+@media (min-width: 1250px){
+
+    main{
+        max-width: 1200px;
+    }
+
+    .sidebar{
+        max-width: 600px;
+    }
+}
