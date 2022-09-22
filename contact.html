@@ -130,115 +130,48 @@
              <nav class="navbar">
                  <ul class="nav-list">
                      <li class="nav-item">
-                         <button class="nav-link active" data-nav-link> <a href="./index.html">About</a> </button>
+                         <button class="nav-link" data-nav-link> <a href="./index.html">About</a> </button>
                      </li>  
                      <li class="nav-item">
                         <button class="nav-link" data-nav-link> <a href="./resume.html">Resume</a> </button>
                     </li>  
                      <li class="nav-item">
-                         <button class="nav-link" data-nav-link> <a href="./contact.html">Contact</a> </button>
+                         <button class="nav-link active" data-nav-link> <a href="./contact.html">Contact</a> </button>
                     </li>
                 </ul>
              </nav>
 
-            <!-- about -->
+            <!-- contact -->
 
-            <article class="about active" id="about">
+            <article class="contact active" id="contact">
                 <header>
-                    <h2 class="h2 article-title">
-                        About me
-                    </h2>
+                    <h2 class="h2 article-title">Contact</h2>
                 </header>
-                    <section class="about-text">
-                        <p>
-                            I'm a Web Develpoer from Kathmandu, Nepal. I enjoy making creative websites .
-                        </p>
-                        <p>
-                            My job is to build Web sites that is functional and user friendly but at the same time attractive.
-                            Moreover I like to add a personal touch to your websites and also make sure that it is attractive and easy to use.
-                        </p>
-                    </section>
 
-                    <!-- servies -->
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1626.2883636771344!2d85.34826897031783!3d27.730732554977507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb195de764e7c9%3A0x7749eebf923d966b!2sMatrichhaya%20dry%20fruit%20Nilopul%2Csukedhara%2Ckathmandu%204!5e0!3m2!1sen!2snp!4v1663814798442!5m2!1sen!2snp" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
 
-                    <section class="services">
-                        <h3 class="h3 service-title">
-                            What i'm doing
-                        </h3>
-                        <ul class="service-list">
-                            <li class="service-item">
+                <section class="contact-from">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form">
+                        <div class="input-wrapper">
+                            <input type="text" class="form-input" name="fullname" placeholder="Full Name" required>
 
-                                <div class="service-icon">
-                                    <img src="./assets/images/icon-design.svg" alt="design" width="50">
-                                </div>
-                                <div class="service-content">
-                                    <h4 class="h4 service-title">Web Design</h4>
-                                    <p class="service-text">
-                                        Modern and high-quality design made at a professional level.
-                                    </p>
-                                </div>
+                            <input type="email" class="form-input" name="Email" placeholder="Email Adderess" required>
+                        </div>
 
-                            </li>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
 
-                            <li class="service-item">
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                            <span>Submit</span>
+                        </button>
 
-                                <div class="service-icon">
-                                    <img src="./assets/images/icon-dev.svg" alt="development" width="50">
-                                </div>
-                                <div class="service-content">
-                                    <h4 class="h4 service-title">Web Develpoment</h4>
-                                    <p class="service-text">
-                                        Sites are developed at professional level in high-quality.
-                                    </p>
-                                </div>
-
-                            </li>
-
-                        </ul>
-                    </section>
-
-                    <!-- testimonials -->
-
-                    <section class="testimonials">
-                        <h3 class="h3 testimonials-title">With Me</h3>
-                        <ul class="testimonials-list has-scrollbar">
-                            <li class="testimonials-items">
-                                <a href="#" class="content-card">
-                                    <figure class="testimonials-avatar-box">
-                                        <img src="./assets/images/ganesh.jpg" alt="ganesh" width="80">
-                                    </figure>
-
-                                    <h4 class="h4 testimonials-item-title">
-                                        Ganesh Bahadur Kawar
-                                    </h4>
-
-                                    <div class="testimonials-text">
-                                        <p>
-                                            Ganesh is a talented web developer with very pleasing works and a lot of experience. He is very concerned about the needs of the clients and delivered very good perofrmance. He is very enthusiastic about his work and always tries to give his best in what he does.
-                                        </p>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li class="testimonials-items">
-                                <a href="#" class="content-card">
-                                    <figure class="testimonials-avatar-box">
-                                        <img src="./assets/images/srijan.jpg" alt="ganesh" width="80">
-                                    </figure>
-
-                                    <h4 class="h4 testimonials-item-title">
-                                        Srijan Sigdel
-                                    </h4>
-
-                                    <div class="testimonials-text">
-                                        <p>
-                                            Srijan is a talented designer and photoshop expert with very pleasing works and a lot of experience. He is very concerned about the needs of the clients and delivered very good perofrmance. He is always eager to try and make new and good looking designs.
-                                        </p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
+                    </form>
+                </section>
             </article>
 
         </div>
